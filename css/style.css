@@ -1,0 +1,349 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+/*  Shared style */
+.display{
+    display: flex;
+}
+.btn {
+    border-radius: 41px;
+
+background: rgb(224, 44, 109);
+padding: 10px 24px;
+border: none;
+color: rgb(255, 255, 255);
+
+font-size: 1rem;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.width{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.navber{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link li{
+    list-style: none;
+    margin-left: 2.25rem;
+}
+.nav-link li a{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+
+font-size: 1rem;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+.icons i{
+    margin-left: 2.25rem;
+}
+.brand a{
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+font-size: 1.8rem;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+}
+/* banner */
+.banner {
+    align-items: center;
+    margin: 50px 0;
+    margin-bottom: 90px;
+}
+.banner-container{
+    max-width: 582px;
+    margin: 0 auto;
+}
+.banner-title{
+    color: rgb(58, 58, 58);
+    margin: 10px 0;
+font-size: 3.4rem;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0px;
+text-align: left;
+}
+.discriptsion{
+    color: rgb(58, 58, 58);
+
+font-size: 1rem;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+.banner-image{
+    max-width: 440px;
+    margin: 0 auto;
+}
+/* sponspors-compaynis */
+.sponspors-compaynis{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    /* gap: 1rem; */
+   
+}
+hr{
+    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+   margin-bottom: 50px;
+}
+/* Popular Collection */
+.Popular-Collection{
+    text-align: center;
+    color: rgb(58, 58, 58);
+
+font-size: 1.9rem;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0px;
+
+}
+.card-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem ;
+}
+.card-item{
+    width: 329px;
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 13px ;
+}
+.card-item img{
+ width:100%;
+
+}
+.card-item h3{
+    color: rgb(24, 25, 31);
+margin: 10px 0;
+font-size: 1.9rem;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.card-item h4{
+    color: rgba(0, 0, 0, 0.87);
+    margin: 5px 0;
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.fa-star{
+    color: #FB8200;
+}
+.fa-star-half-stroke{
+    color: #FB8200;
+}
+#number{
+    color: rgb(94, 99, 102);
+
+font-size: 14px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.1px;
+text-align: left;
+}
+.card-item p{
+    color: rgb(120, 120, 133);
+
+font-size: 14px;
+font-weight: 700;
+line-height: 143%;
+letter-spacing: 1.8%;
+text-align: left;
+}
+.see-more{
+    color: rgba(224, 44, 109, 0.87);
+
+font-size: 1rem;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: right;
+margin-bottom: 100px;
+}
+/* Featured-products */
+.Featured-products{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.Featured-products-img{
+    max-width: 404px;
+}
+.Featured-products-discriptsion{
+    max-width: 610px;
+}
+.Featured-products-discriptsion h2{
+    color: rgb(10, 8, 38);
+
+font-size: 3rem;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+margin: 10px 0;
+}
+.Featured-products p{
+    color: rgb(108, 108, 108);
+
+font-size: 1rem;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+#btn{
+    background: rgb(224, 44, 109);
+    border: none;
+    padding: 10px 24px;
+}
+#btn a {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+/* footer */
+.footer{
+    background: rgb(10, 8, 38);
+    text-align: center;
+    padding: 30px;
+    color: rgb(255, 255, 255);;
+}
+.footer h2{
+    margin: 5px 0;
+    color: rgb(255, 255, 255);
+
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0px;
+
+}
+footer p{
+    color: rgb(217, 219, 225);
+font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+
+}
+.footer i{
+  margin-right: 10px;
+  
+ 
+}
+
+/*  responsive media query  */
+@media screen and (max-width:576px){
+    .banner
+     {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .navber, .nav-link{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-container,
+     .banner-title,
+      .discriptsion{
+       text-align: center;
+       padding:0px  10px;
+    }
+    .icons{
+        display: none;
+    }
+    .banner-title{
+        font-size: 2rem;
+        line-height: 50px;
+    }
+    
+    .sponspors-compaynis{
+        grid-template-columns: repeat(4,1fr);
+        width: transform(100% - 30px);
+        gap: 30px 0px;
+        padding: 0 30px;
+    }
+    .card-items{
+        grid-template-columns: repeat(1,1fr);
+     
+
+    }
+   
+   
+    .see-more{
+        text-align: center;
+    }
+    .Featured-products{
+        flex-direction: column-reverse;
+       text-align: center;
+       padding: 0px 20px;
+       gap: 20px;
+    }
+    .Featured-products-discriptsion h2{
+    font-size: 2rem;
+    line-height: 50px;
+    margin: 10px 0;
+    }
+
+}
+
+/* medium size device */
+@media screen and (min-width:576px) and (max-width:992px){
+    .banner
+    {
+       flex-direction: column-reverse;
+       align-items: center;
+   }
+   .navber, .nav-link{
+    flex-direction: column;
+    align-items: center;
+    }
+    .icons{
+        display: none;
+    }
+    .sponspors-compaynis{
+        grid-template-columns: repeat(5,1fr);
+        width: transform(100% - 30px);
+        gap: 30px 0px;
+        padding: 0 30px;
+       
+        
+    }
+    .card-items{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Featured-products{
+        flex-direction: column-reverse;
+       text-align: center;
+       padding: 0px 20px;
+       gap: 20px;
+    }
+}
